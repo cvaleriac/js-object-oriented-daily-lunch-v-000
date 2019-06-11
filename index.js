@@ -11,7 +11,7 @@ class Neighborhood {
         this.id = ++neighborhoodId;
         store.neighborhoods.push(this);
     }
-    
+
     deliveries() {
         return store.deliveries.filter(
             function(delivery) {
